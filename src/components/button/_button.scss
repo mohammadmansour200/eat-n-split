@@ -1,0 +1,16 @@
+@use "/src/utils/variables" as *;
+
+.button {
+  background-color: $color-medium;
+  color: #343a40;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $color-dark;
+  }
+}
